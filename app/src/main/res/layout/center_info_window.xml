@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="address : "
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="address"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="centerName : "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/centerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="centerName"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="facilityName : "
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/facilityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="facilityName"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="phoneNumber : "
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="phoneNumber"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="updatedAt : "
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/updatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="updatedAt"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
